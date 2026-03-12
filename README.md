@@ -19,14 +19,13 @@ Backend API for library book record management using Node.js, Express, MongoDB, 
    ```
 4. Test the API:
    ```text
-   http://localhost:4000/api/health
+   http://localhost:4000/api/books
    ```
 
 `MONGO_URI` is required. The server exits at startup if MongoDB is not configured or the connection fails.
 
 ## API Endpoints
 
-- `GET /api/health` - health check
 - `POST /api/books` - add a new book
 - `GET /api/books` - get all books
 - `GET /api/books/:id` - get book by MongoDB document id
